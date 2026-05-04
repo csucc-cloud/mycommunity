@@ -10,8 +10,8 @@
   },
 "dependencies": {
   "next": "15.0.0",
-  "react": "19.0.0-rc-66238789-20241203",
-  "react-dom": "19.0.0-rc-66238789-20241203",
+  "react": "18.3.1",
+  "react-dom": "18.3.1",
   "@supabase/ssr": "latest",
   "@supabase/supabase-js": "latest",
   "lucide-react": "latest"
