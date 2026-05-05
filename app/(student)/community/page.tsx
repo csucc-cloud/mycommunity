@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { createClient } from '@/utils/supabase/client'
-import CreatePost from '@/components/community/CreatePost'
+import { createClient } from '../../../utils/supabase/client'
+import CreatePost from '../../../components/community/CreatePost'
 
 export default function CommunityPage() {
   const [posts, setPosts] = useState<any[]>([])
