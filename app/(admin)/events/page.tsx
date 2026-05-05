@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { createClient } from '@/utils/supabase/client'
+import { createClient } from '../../../utils/supabase/client'
 import { Activity, Users, MapPin } from 'lucide-react'
 
 export default function AdminEventMonitor() {
