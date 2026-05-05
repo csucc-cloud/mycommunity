@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import { createClient } from '@/utils/supabase/client'
+import { createClient } from '../../utils/supabase/client'
 import { Ghost, Send } from 'lucide-react'
 
 export default function CreatePost() {
